@@ -10,13 +10,13 @@
        DATA DIVISION.
        FILE SECTION.
        FD Fichier.
-       01 LigneFichier PIC X(1024).
+       01 LigneFichier         PIC X(1024).
 
        WORKING-STORAGE SECTION.
-       01 FinFichier        PIC X VALUE 'N'.
-       01 CompteurCaracteres PIC 9(9) VALUE 0.
-       01 LongueurLigne     PIC 9(4).
-       01 Index             PIC 9(4).
+       01 FinFichier           PIC X VALUE 'N'.
+       01 CompteurCaracteres   PIC 9(9) VALUE 0.
+       01 LongueurLigne        PIC 9(4) VALUE 0.
+       01 Index                PIC 9(4) VALUE 0.
 
        PROCEDURE DIVISION.
        Debut.
@@ -33,5 +33,5 @@
                END-READ
            END-PERFORM
            CLOSE Fichier
-           DISPLAY "Nombre de caractères : " CompteurCaracteres
+           DISPLAY "Nombre de caractEres : " CompteurCaracteres
            STOP RUN.
