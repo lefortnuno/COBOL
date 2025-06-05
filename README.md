@@ -7,10 +7,12 @@ TROFEL - COBOL
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/lefortnuno/COBOL/tree/master/0001-two-sum) |
 | [0268-missing-number](https://github.com/lefortnuno/COBOL/tree/master/0268-missing-number) |
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/lefortnuno/COBOL/tree/master/0001-two-sum) |
 | [0268-missing-number](https://github.com/lefortnuno/COBOL/tree/master/0268-missing-number) |
 ## Math
 |  |
