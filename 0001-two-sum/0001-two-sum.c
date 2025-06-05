@@ -1,4 +1,3 @@
-#include <stdlib.h>
 
 typedef struct {
     int val;
@@ -42,8 +41,7 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
             right--;
         }
     }
-
-    // Aucun résultat trouvé (impossible selon la contrainte LeetCode)
+ 
     *returnSize = 0;
     free(arr);
     return NULL;
