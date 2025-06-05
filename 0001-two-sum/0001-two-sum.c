@@ -42,7 +42,7 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
             right--;
         }
     }
- 
+    
     *returnSize = 0;
     free(arr);
     return NULL;
