@@ -43,7 +43,7 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
         }
     }
 
-    // Impossible normalement (LeetCode garantit une solution)
+    // Aucun résultat trouvé (impossible selon la contrainte LeetCode)
     *returnSize = 0;
     free(arr);
     return NULL;
