@@ -1,7 +1,7 @@
 int missingNumber(int* t, int n) { 
-    unsigned long int v = ((n+1)*n)/2;
+    unsigned short int v = n;
     for(unsigned short int i=0; i<n; i++){
-        v -= t[i];
+        v ^= i ^ t[i];
     }
     return v;
 }
